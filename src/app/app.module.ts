@@ -10,7 +10,7 @@ import pt from '@angular/common/locales/pt';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { IconsProviderModule } from './icons-provider.module';
+import { IconsProviderModule } from './shared/icons-provider.module';
 import { NgZorroAntdModule } from './shared/ng-zorro-antd.module';
 
 registerLocaleData(pt);
